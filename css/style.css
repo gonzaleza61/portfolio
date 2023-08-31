@@ -125,6 +125,8 @@ nav {
     font-family: var(--mono);
     font-size: 80%;
     padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 nav h1 a {
@@ -143,9 +145,15 @@ nav ul {
 }
 
 nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+}
+
+/* nav li:first-child {
     flex-basis: 100%;
     text-align: center;
-}
+} */
 
 nav [class*="fa-"] {
     font-size: 150%;
@@ -322,7 +330,7 @@ footer ul {
 }
 
 
-@media (min-width: 850px) {
+/* @media (min-width: 850px) {
     nav {
         max-width: 1200px;
         margin: 0 auto;
@@ -331,6 +339,13 @@ footer ul {
         flex-basis: auto;
         text-align: left;
         margin-right: auto;
+    }
+} */
+
+@media screen and (max-width: 768px)
+{ 
+    nav{
+    display: none;
     }
 }
 
