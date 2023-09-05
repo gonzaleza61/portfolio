@@ -362,8 +362,8 @@ footer ul {
   }
 
   .hamburger-menu {
-    --x-width: calc(var(--hamburger-height) * 1.41421356237);
     display: flex;
+    --x-width: calc(var(--hamburger-height) * 1.41421356237);
     flex-direction: column;
     gap: var(--hamburger-gap);
     width: max-content;
@@ -414,6 +414,8 @@ footer ul {
   }
 
   .sidebar{
+    display: flex;
+    position: absolute;
     transition: translate var(--animation-timing);
     translate: -100%;
     padding: 0.5rem 1rem;
