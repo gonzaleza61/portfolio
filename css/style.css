@@ -414,7 +414,6 @@ footer ul {
   }
 
   .sidebar{
-    display: inline-block;
     transition: translate var(--animation-timing);
     translate: -100%;
     padding: 0.5rem 1rem;
@@ -428,4 +427,5 @@ footer ul {
   .hamburger-menu:has(input:checked) + .sidebar{
     translate: 0;
   }
+
 }
