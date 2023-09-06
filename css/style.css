@@ -417,10 +417,10 @@ footer ul {
     display: block;
     position: absolute;
     transition: translate var(--animation-timing);
-    translate: -100%;
+    translate: -100vw;
     padding: 0.5rem 1rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-    background-color: var(--black);
+    background-color: var(--background);
     color: var(--background);
     top: 0;
     width: 100vw;
