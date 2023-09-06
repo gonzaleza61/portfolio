@@ -368,8 +368,8 @@ footer ul {
     gap: var(--hamburger-gap);
     width: max-content;
     position: absolute;
-    top: var(--hamburger-margin);
-    left: var(--hamburger-margin);
+    bottom: var(--hamburger-margin);
+    right: var(--hamburger-margin);
     z-index: 2;
     cursor: pointer;
   }
@@ -417,14 +417,15 @@ footer ul {
     display: block;
     position: absolute;
     transition: translate var(--animation-timing);
-    translate: -100vw;
+    translate: 100vw;
     padding: 0.5rem 1rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
     background-color: var(--background);
     color: var(--background);
-    top: 0;
-    width: 100vw;
-    min-height: 100vh;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    min-height: 40vh;
   }
 
   .hamburger-menu:has(input:checked) + .sidebar{
