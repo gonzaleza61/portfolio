@@ -420,9 +420,10 @@ footer ul {
     translate: -100%;
     padding: 0.5rem 1rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-    background-color: var(--foreground);
+    background-color: var(--black);
     color: var(--background);
-    max-width: 10rem;
+    top: 0;
+    width: 100vw;
     min-height: 100vh;
   }
 
