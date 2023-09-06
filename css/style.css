@@ -369,7 +369,7 @@ footer ul {
     width: max-content;
     position: absolute;
     top: var(--hamburger-margin);
-    right: var(--hamburger-margin);
+    left: var(--hamburger-margin);
     z-index: 2;
     cursor: pointer;
   }
@@ -414,7 +414,7 @@ footer ul {
   }
 
   .sidebar{
-    display: flex;
+    display: block;
     position: absolute;
     transition: translate var(--animation-timing);
     translate: -100%;
