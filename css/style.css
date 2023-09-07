@@ -368,7 +368,7 @@ footer ul {
     gap: var(--hamburger-gap);
     width: max-content;
     position: absolute;
-    bottom: var(--hamburger-margin);
+    top: var(--hamburger-margin);
     right: var(--hamburger-margin);
     z-index: 2;
     cursor: pointer;
@@ -422,7 +422,7 @@ footer ul {
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
     background-color: var(--background);
     color: var(--background);
-    bottom: 0;
+    top: 0;
     right: 0;
     width: 50vw;
     min-height: 40vh;
