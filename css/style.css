@@ -417,7 +417,7 @@ footer ul {
     display: block;
     position: absolute;
     transition: translate var(--animation-timing);
-    translate: -100%;
+    translate: 100%;
     padding: 0.5rem 1rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
     background-color: var(--background);
