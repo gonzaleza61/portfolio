@@ -32,7 +32,7 @@ html,body {
 }
 
 .mobile-wrapper {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 *,
@@ -422,18 +422,19 @@ footer ul {
   }
 
   .sidebar{
-    display: inline-block;
-    position: relative;
+    display: block;
+    position: absolute;
     transition: translate var(--animation-timing);
-    translate: 100%;
+    translate: -100%;
     padding: 0.5rem 1rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
     background-color: var(--background);
     color: var(--background);
     top: 0;
-    right: 0;
-    width: 50vw;
+    left: 0;
+    width: 45vw;
     min-height: 40vh;
+    overflow-x: hidden;
   }
 
   .hamburger-menu:has(input:checked) + .sidebar{
