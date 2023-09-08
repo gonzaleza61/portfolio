@@ -377,7 +377,7 @@ footer ul {
     width: max-content;
     position: absolute;
     top: var(--hamburger-margin);
-    right: var(--hamburger-margin);
+    left: var(--hamburger-margin);
     z-index: 2;
     cursor: pointer;
   }
