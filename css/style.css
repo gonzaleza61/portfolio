@@ -422,7 +422,7 @@ footer ul {
   }
 
   .sidebar{
-    display: block;
+    display: inline-block;
     position: absolute;
     transition: translate var(--animation-timing);
     translate: 100%;
