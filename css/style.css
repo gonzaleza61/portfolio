@@ -437,6 +437,14 @@ footer ul {
     overflow-x: hidden;
   }
 
+  .sidebar a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+  }
+
+  
+
   .hamburger-menu:has(input:checked) + .sidebar{
     translate: 0;
   }
