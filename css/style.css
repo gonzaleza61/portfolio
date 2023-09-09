@@ -90,6 +90,12 @@ img {
   height: 2px;
 }
 
+.black-gradient {
+  background: var(--foreground);
+  height: 2px;
+}
+
+
 /* intro styles */
 
 #intro {
