@@ -428,12 +428,12 @@ footer ul {
     translate: -100%;
     padding: 0.5rem 1rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-    background-color: var(--background);
+    background-color: var(--black);
     color: var(--background);
     top: 0;
     left: 0;
     width: 45vw;
-    min-height: 40vh;
+    /* min-height: 40vh; */
     overflow-x: hidden;
   }
 
