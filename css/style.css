@@ -391,7 +391,7 @@ footer ul {
 
   .hamburger-menu:has(input:checked){
     --foreground: white;
-    --backbround: #333;
+    --background: #333;
   }
 
 
@@ -448,8 +448,8 @@ footer ul {
     translate: -100%;
     padding: 0.5rem 1rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-    background-color: var(--black);
-    color: var(--background);
+    background-color: var(--foreground);
+    color: var(--foreground);
     top: 0;
     left: 0;
     width: 45vw;
@@ -461,7 +461,16 @@ footer ul {
     display: flex;
     text-decoration: none;
     justify-content: center;
+    color: var(--white);
+    font-family: var(--mono);
+    padding: 1rem;
   }
+
+  .sidebar a:hover{
+    color: var(--hotmag);
+    text-decoration: none;
+  }
+
 
   
 
