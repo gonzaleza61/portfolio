@@ -91,7 +91,7 @@ img {
 }
 
 .black-gradient {
-  background: var(--foreground);
+  background: var(--black);
   height: 2px;
 }
 
