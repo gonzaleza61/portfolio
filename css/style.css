@@ -91,7 +91,7 @@ img {
 }
 
 .black-gradient {
-  background: var(--black);
+  background: var(--white);
   height: 2px;
 }
 
@@ -452,7 +452,7 @@ footer ul {
     color: var(--foreground);
     top: 0;
     left: 0;
-    width: 30vw;
+    width: 45vw;
     /* min-height: 40vh; */
     overflow-x: hidden;
   }
