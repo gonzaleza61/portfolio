@@ -452,7 +452,7 @@ footer ul {
     color: var(--foreground);
     top: 0;
     left: 0;
-    width: 45vw;
+    width: 30vw;
     /* min-height: 40vh; */
     overflow-x: hidden;
   }
